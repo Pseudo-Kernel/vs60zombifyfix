@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VS60Detector", "VS60Detector\VS60Detector.vcxproj", "{95FCA603-87A6-402C-8A60-57134F2FB5DE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3CB718CE-1101-4B4B-8DCA-1402B6E3C6F6} = {3CB718CE-1101-4B4B-8DCA-1402B6E3C6F6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VS60RTP", "VS60RTP\VS60RTP.vcxproj", "{3CB718CE-1101-4B4B-8DCA-1402B6E3C6F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95FCA603-87A6-402C-8A60-57134F2FB5DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95FCA603-87A6-402C-8A60-57134F2FB5DE}.Debug|Win32.Build.0 = Debug|Win32
+		{95FCA603-87A6-402C-8A60-57134F2FB5DE}.Release|Win32.ActiveCfg = Release|Win32
+		{95FCA603-87A6-402C-8A60-57134F2FB5DE}.Release|Win32.Build.0 = Release|Win32
+		{3CB718CE-1101-4B4B-8DCA-1402B6E3C6F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CB718CE-1101-4B4B-8DCA-1402B6E3C6F6}.Debug|Win32.Build.0 = Debug|Win32
+		{3CB718CE-1101-4B4B-8DCA-1402B6E3C6F6}.Release|Win32.ActiveCfg = Release|Win32
+		{3CB718CE-1101-4B4B-8DCA-1402B6E3C6F6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
